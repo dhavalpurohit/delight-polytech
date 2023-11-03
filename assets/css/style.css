@@ -1319,6 +1319,28 @@ section {
   text-transform: uppercase;
 }
 
+.product-title2 h2{
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-name{
+  background-color: rgb(240, 249, 255);
+}
+
+.product-name h4{
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+
 .product-title-img{
   background-image: url('../img/main-slide1.jpg');
   background-size: cover;
