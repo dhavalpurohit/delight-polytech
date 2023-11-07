@@ -39,11 +39,14 @@
         <i class="bi bi-envelope-fill"></i><a href="mailto:info@delightpolytech.com">sales@delightpolytech.com</a>
         <i class="bi bi-phone-fill phone-icon"></i> +91-9966289000
       </div>
-      <div class="social-links d-none d-md-block">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      <div class="d-flex align-items-center">
+        <div class="social-links d-none d-md-block">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        </div>
+        <button class="dealer-btn">FIND / BECOME A DEALER</button>
       </div>
     </div>
   </section>
@@ -52,13 +55,19 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
       <a href="index.html" class="logo me-auto"><img src="assets/img/logo/logo.png" alt="" class="img-fluid"></a>
-
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="#">Product</a></li>
-          <li><a class="nav-link scrollto" href="#">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/product-details/cpvc_pipes_&_fittings.html">CPVC Pipes & Fittings</a></li>
+              <li><a href="/product-details/upvc_pipes_&_fittings.html">UPVS Pipes & Fittings</a></li>
+              <li><a href="/product-details/swr_pipes_&_fittings.html">SWR Pipes & Fittings</a></li>
+              <li><a href="/product-details/garden_hose_pipes.html">Garden Hose Pipes</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -478,9 +487,9 @@
         <div class="col-lg-2 footer-box">
           <h5>Company</h5>
           <ul>
-            <li><a href="#">About Us</a></li>
+            <li><a href="about.html">About Us</a></li>
             <li><a href="#">Product</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-lg-3 footer-box">
@@ -531,6 +540,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    window.onload = function () {
+      document.getElementById('product-active').click();
+    }
+
+  </script>
 
 </body>
 

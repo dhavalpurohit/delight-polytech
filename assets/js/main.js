@@ -333,9 +333,6 @@
     }
   });
 
-  window.onload = function () {
-    document.getElementById('product-active').click();
-  }
 
   /**
  * Testimonials slider

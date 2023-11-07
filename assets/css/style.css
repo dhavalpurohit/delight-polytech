@@ -121,6 +121,18 @@ ul {
   color: #0073ab;
 }
 
+.dealer-btn {
+  background: #0073ab;
+  border: 0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 20px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -1234,6 +1246,7 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1287,6 +1300,57 @@ section {
     display: inline-block;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Product Page Start
+--------------------------------------------------------------*/
+.product-title div{
+  width: 100%;
+  padding: 100px 0;
+  background-color: rgba(0, 0,0,0.4);
+}
+
+.product-title h2{
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-title2 h2{
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-name{
+  background-color: rgb(240, 249, 255);
+}
+
+.product-name h4{
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+
+.product-title-img{
+  background-image: url('../img/main-slide1.jpg');
+  background-size: cover;
+  background-position: center;
+} 
+
+
+/*--------------------------------------------------------------
+# Product Page End
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Footer
