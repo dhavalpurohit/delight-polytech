@@ -41,10 +41,10 @@
       </div>
       <div class="d-flex align-items-center">
         <div class="social-links d-none d-md-block">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+          <a href="#" aria-label="twitter" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" aria-label="facebook" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="instagram" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="linkedin" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
         </div>
         <button class="dealer-btn">FIND / BECOME A DEALER</button>
       </div>
@@ -54,7 +54,8 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo/logo.png" alt="" class="img-fluid"></a>
+      <a href="index.html" aria-label="index" class="logo me-auto"><img src="assets/img/logo/logo.png" alt=""
+          class="img-fluid"></a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
@@ -81,10 +82,9 @@
 
       <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-      <div class="carousel-inner" role="listbox">
-
+      <div class="carousel-inner">
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide1.jpeg)">
+        <div class=" carousel-item active" style="background-image: url(assets/img/slide/slide1.jpeg)">
           <div class="carousel-container">
             <div class="container-fluid">
               <div class="row align-items-center">
@@ -149,11 +149,11 @@
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+      <a class="carousel-control-prev" href="#heroCarousel" aria-label="prev" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
       </a>
 
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+      <a class="carousel-control-next" href="#heroCarousel" role="button" aria-label="next" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
       </a>
 
@@ -196,10 +196,10 @@
             <div class="swiper-slide">
               <div class="icon-box">
                 <div class="icon"><img src="assets/img/product/cpvc-pipes.jpg" alt="" class="img-fluid"></div>
-                <h4 class="title"><a href="">CPVC Pipes & Fittings</a></h4>
+                <h4 class="title"><a href="/product-details/cpvc_pipes_&_fittings.html">CPVC Pipes & Fittings</a></h4>
                 <p class="description">CPVC Pipes & Fittings are thermoplastic product made from special chemical called
                   Chlorinated Polyvinyl Chloride</p>
-                <a href="#"
+                <a href="/product-details/cpvc_pipes_&_fittings.html"
                   class="d-flex align-items-center btn-get-started animate__animated animate__fadeInUp  read-more">Read
                   More<i class='bx bx-right-arrow-circle ms-2'></i></a>
               </div>
@@ -207,10 +207,10 @@
             <div class="swiper-slide">
               <div class="icon-box  ">
                 <div class="icon"><img src="assets/img/product/upvc-pipes.jpg" alt="" class="img-fluid"></div>
-                <h4 class="title"><a href="">UPVC Pipes & Fittings</a></h4>
+                <h4 class="title"><a href="/product-details/upvc_pipes_&_fittings.html">UPVC Pipes & Fittings</a></h4>
                 <p class="description">Delight UPVC Pipes & Fittings are synthetic plastic polymer made from most
                   versatile polymer called Un-Plasticized Polyvinyl Chloride</p>
-                <a href="#"
+                <a href="/product-details/upvc_pipes_&_fittings.html"
                   class="d-flex align-items-center btn-get-started animate__animated animate__fadeInUp  read-more">Read
                   More<i class='bx bx-right-arrow-circle ms-2'></i></a>
               </div>
@@ -218,10 +218,10 @@
             <div class="swiper-slide">
               <div class="icon-box  ">
                 <div class="icon"><img src="assets/img/product/swr-pipes.jpg" alt="" class="img-fluid"></div>
-                <h4 class="title"><a href="">SWR Pipes & Fitting</a></h4>
+                <h4 class="title"><a href="/product-details/swr_pipes_&_fittings.html">SWR Pipes & Fitting</a></h4>
                 <p class="description">Delight Pipes is one of the leading names in offering wide ranges of SWR Drainage
                   and Sewage Pipes & fittings.</p>
-                <a href="#"
+                <a href="/product-details/swr_pipes_&_fittings.html"
                   class="d-flex align-items-center btn-get-started animate__animated animate__fadeInUp  read-more">Read
                   More<i class='bx bx-right-arrow-circle ms-2'></i></a>
               </div>
@@ -229,11 +229,13 @@
             <div class="swiper-slide">
               <div class="icon-box  ">
                 <div class="icon"><img src="assets/img/product/garden-hose-pipes.jpg" alt="" class="img-fluid"></div>
-                <h4 class="title"><a href="">Garden Hose Pipes</a></h4>
+                <h4 class="title"><a href="/product-details/garden_hose_pipes.html">Garden Hose Pipes</a></h4>
                 <p class="description">We introduce to you our garden hose that saves you having to carry heavy watering
                   cans from your water connection to your beds.</p>
-                <a href="#" class="btn-get-started animate__animated animate__fadeInUp  read-more">Read More<i
-                    class='bx bx-right-arrow-circle ms-2'></i></a>
+                <a href="/product-details/garden_hose_pipes.html"
+                  class="d-flex align-items-center btn-get-started animate__animated animate__fadeInUp  read-more">Read
+                  More<i class='bx bx-right-arrow-circle ms-2'></i>
+                </a>
               </div>
             </div>
           </div>
@@ -477,28 +479,28 @@
             and HDPE pipes & fittings Micro Irrigation System.”
           </p>
           <div class="social-links">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            <a href="#" aria-label="twitter" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" aria-label="facebook" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" aria-label="instagram" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" aria-label="skype" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" aria-label="linkedin" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           </div>
         </div>
         <div class="col-lg-2 footer-box">
           <h5>Company</h5>
           <ul>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="#">Product</a></li>
+            <li><a href="/product-details/upvc_pipes_&_fittings.html">Product</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-lg-3 footer-box">
           <h5>Product</h5>
           <ul>
-            <li><a href="#">UPVC Pipe and Fitting</a></li>
-            <li><a href="#">CPVC Plumping System</a></li>
-            <li><a href="#">SWR Plumbing System</a></li>
-            <li><a href="#">AGRI Plumbing System</a></li>
+            <li><a href="/product-details/upvc_pipes_&_fittings.html">UPVC Pipe and Fitting</a></li>
+            <li><a href="/product-details/cpvc_pipes_&_fittings.html">CPVC Pipe and Fitting</a></li>
+            <li><a href="/product-details/swr_pipes_&_fittings.html">SWR Pipe and Fitting</a></li>
+            <li><a href="/product-details/garden_hose_pipes.html">Garden Hose Pipes</a></li>
           </ul>
         </div>
         <div class="col-lg-3 footer-box">
@@ -528,7 +530,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center shadow"><i
+  <a href="#" aria-label="up-arrow" class="back-to-top d-flex align-items-center justify-content-center shadow"><i
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
