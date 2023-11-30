@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #2d3192;
+  color: #0073ab;
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ ul {
 }
 
 .back-to-top:hover {
-  background-color: #2d3192 !important;
+  background-color: #0073ab !important;
 }
 
 .back-to-top.active {
@@ -541,7 +541,7 @@ ul {
 }
 
 #hero .btn-get-started:hover {
-  background: #2d3192;
+  background: #0073ab;
 }
 
 @media (max-width: 992px) {
@@ -1237,7 +1237,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2d3192;
+  background: #0073ab;
 }
 
 @keyframes animate-loading {
@@ -1355,6 +1355,77 @@ section {
 /*--------------------------------------------------------------
 # Product Page End
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Career
+--------------------------------------------------------------*/
+.accordion-button:focus {
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #0073ab;
+  color: #fff;
+  ;
+}
+
+
+.career .career-info .accordion-item:first-of-type .accordion-button {
+  border-bottom: 3px solid #0073ab;
+}
+
+.career .career-info .job-location {
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+.career .career-info .job-requirements {
+  padding: 20px;
+}
+
+.job-requirements .job-required-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.job-requirements .job-required-title::before {
+  content: ' ';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: -20px;
+  bottom: 0;
+  margin: auto;
+  background-color: #0073ab;
+}
+
+.job-requirements ul {
+  list-style: disc;
+}
+
+.career .career-info .job-location::before {
+  content: '\27A4';
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  bottom: 0;
+  margin: auto;
+  color: #0073ab;
+}
+
+/*--------------------------------------------------------------
+# Career Page End
+--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Footer
