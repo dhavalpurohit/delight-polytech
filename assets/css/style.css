@@ -1350,8 +1350,16 @@ section {
   background-image: url('../img/main-slide1.jpg');
   background-size: cover;
   background-position: center;
+  height: 500px;
 }
 
+.product-title .bg_gray{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
 /*--------------------------------------------------------------
 # Product Page End
