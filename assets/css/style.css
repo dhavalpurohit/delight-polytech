@@ -1340,7 +1340,7 @@ section {
 
 
 .product-title-img {
-  background-image: url('../img/main-slide1.jpg');
+  background-image: url('../img/slide_03.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -1352,6 +1352,18 @@ section {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.cpvc_bg {
+  background-image: url('../img/slide_01.jpg');
+}
+
+.upvc_bg {
+  background-image: url('../img/slide_03.jpg');
+}
+
+.swr_bg {
+  background-image: url('../img/slide_02.jpg');
 }
 
 /*--------------------------------------------------------------
