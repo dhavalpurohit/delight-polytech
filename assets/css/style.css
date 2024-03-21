@@ -1340,7 +1340,7 @@ section {
 
 
 .product-title-img {
-  background-image: url('../img/slide_03.jpg');
+  background-image: url('../img/swr_bg.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -1355,15 +1355,15 @@ section {
 }
 
 .cpvc_bg {
-  background-image: url('../img/slide_01.jpg');
+  background-image: url('../img/cpvc_bg.jpg');
 }
 
 .upvc_bg {
-  background-image: url('../img/slide_03.jpg');
+  background-image: url('../img/upvc_bg.jpg');
 }
 
 .swr_bg {
-  background-image: url('../img/slide_02.jpg');
+  background-image: url('../img/swr_bg.jpg');
 }
 
 /*--------------------------------------------------------------
