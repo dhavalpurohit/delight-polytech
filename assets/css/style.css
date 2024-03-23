@@ -1341,9 +1341,9 @@ section {
 
 .product-title-img {
   background-image: url('../img/swr_bg.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
-  height: 500px;
+  height: 100vh;
 }
 
 .product-title .bg_gray {
@@ -1366,6 +1366,25 @@ section {
   background-image: url('../img/swr_bg.jpg');
 }
 
+.garden_bg {
+  background-image: url('../img/garden_bg.jpg');
+}
+
+.agriculture_bg {
+  background-image: url('../img/agriculture_bg.jpg');
+}
+
+.colunm_bg {
+  background-image: url('../img/colunm_bg.jpg');
+}
+
+.casing_bg {
+  background-image: url('../img/casing_bg.png');
+}
+
+.uds_bg {
+  background-image: url('../img/uds_bg.jpg');
+}
 /*--------------------------------------------------------------
 # Product Page End
 --------------------------------------------------------------*/
