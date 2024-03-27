@@ -1341,9 +1341,9 @@ section {
 
 .product-title-img {
   background-image: url('../img/swr_bg.jpg');
-  background-size: 100% 100%;
+  background-size: 1920px 100%;
   background-position: center;
-  height: 100vh;
+  height: 350px;
 }
 
 .product-title .bg_gray {
@@ -1355,36 +1355,37 @@ section {
 }
 
 .cpvc_bg {
-  background-image: url('../img/cpvc_bg.jpg');
+  background-image: url('../img/product/cpvc_header.png');
 }
 
 .upvc_bg {
-  background-image: url('../img/upvc_bg.jpg');
+  background-image: url('../img/product/upvc_header.png');
 }
 
 .swr_bg {
-  background-image: url('../img/swr_bg.jpg');
+  background-image: url('../img/product/swr_header.png');
 }
 
 .garden_bg {
-  background-image: url('../img/garden_bg.jpg');
+  background-image: url('../img/product/garderpipe_header.png');
 }
 
 .agriculture_bg {
-  background-image: url('../img/agriculture_bg.jpg');
+  background-image: url('../img/product/agreecal_header.png');
 }
 
 .colunm_bg {
-  background-image: url('../img/colunm_bg.jpg');
+  background-image: url('../img/product/colunm_header.png');
 }
 
 .casing_bg {
-  background-image: url('../img/casing_bg.png');
+  background-image: url('../img/product/cashin_header.png');
 }
 
 .uds_bg {
-  background-image: url('../img/uds_bg.jpg');
+  background-image: url('../img/product/uds_header.png');
 }
+
 /*--------------------------------------------------------------
 # Product Page End
 --------------------------------------------------------------*/
