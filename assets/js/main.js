@@ -224,7 +224,7 @@
       },
     },
   })
-  new Swiper(".product-slider .swiper", {
+  new Swiper(".product-slider .productnew .swiper", {
     speed: 400,
     loop: true,
     autoplay: {
@@ -337,27 +337,40 @@
   /**
  * Testimonials slider
  */
-  new Swiper('.testimonials-slider', {
-    speed: 400,
+  new Swiper('.testimonials-slider.swiper', {
+    speed: 2000,
     loop: true,
-    slidesPerView: 'auto',
+    slidesPerView: 3,
     autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
+      delay: 4000,
+      disableOnInteraction: false,
     },
     breakpoints: {
       320: {
         slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 10,
       },
       640: {
-        slidesPerView: 2,
+        slidesPerView:2.5,
+        spaceBetween: 10,
       },
-    }
+      992: {
+        slidesPerView:2.5,
+        spaceBetween: 10,
+      },
+      1080: {
+        slidesPerView:2.5,
+        spaceBetween: 10,
+      },
+      1366: {
+        slidesPerView:2.5,
+        spaceBetween: 10,
+      },
+    },
   })
 
 })()

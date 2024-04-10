@@ -989,13 +989,17 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonial-wrap {
+/* .testimonials .testimonial-wrap {
   padding-left: 50px;
-}
+} */
 
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
+}
+
+.testimonials .swiper-backface-hidden .swiper-slide {
+  margin-right: 0 !important;
 }
 
 .testimonials .testimonial-item {
@@ -1027,6 +1031,7 @@ section {
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
+  text-align: center;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1539,4 +1544,13 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.item {
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  display: flex;
+  height: 300px;
+  justify-content: center;
 }
