@@ -1558,12 +1558,12 @@ section {
 
 @media (max-width: 1200px) {
   .product-title-img {
-    background-position-x: 72%;
+    background-position-x: -48%;
   }
 }
 
 @media (max-width: 600px) {
   #hero {
-    height: 50vh;
+    height: 475px;
   }
 }
