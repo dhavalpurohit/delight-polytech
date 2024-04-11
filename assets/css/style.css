@@ -1554,3 +1554,16 @@ section {
   height: 300px;
   justify-content: center;
 }
+
+
+@media (max-width: 1200px) {
+  .product-title-img {
+    background-position-x: 72%;
+  }
+}
+
+@media (max-width: 600px) {
+  #hero {
+    height: 50vh;
+  }
+}
