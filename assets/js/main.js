@@ -241,11 +241,23 @@
         spaceBetween: 40,
       },
       640: {
-        slidesPerView: 3,
+        slidesPerView: 1.5,
         spaceBetween: 40,
       },
       992: {
         slidesPerView: 3,
+        spaceBetween: 40,
+      },
+      1200: {
+        slidesPerView: 3.5,
+        spaceBetween: 40,
+      },
+      1600: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+      1800: {
+        slidesPerView: 5,
         spaceBetween: 40,
       },
     },
@@ -355,19 +367,19 @@
         spaceBetween: 10,
       },
       640: {
-        slidesPerView:2.5,
+        slidesPerView: 1.5,
         spaceBetween: 10,
       },
       992: {
-        slidesPerView:2.5,
+        slidesPerView: 2.5,
         spaceBetween: 10,
       },
       1080: {
-        slidesPerView:2.5,
+        slidesPerView: 2.5,
         spaceBetween: 10,
       },
       1366: {
-        slidesPerView:2.5,
+        slidesPerView: 2.5,
         spaceBetween: 10,
       },
     },
