@@ -1588,12 +1588,43 @@ section {
 
 @media (max-width: 600px) {
   #hero {
-    height: 475px;
+    height: 290px;
+    padding: 40px 0;
   }
   .product_range .product-range-image img{
     margin:10px auto;
   }
   .product-slider .icon-box{
     min-height: auto;
+  }
+  .testimonials .testimonial-item {
+    height: auto;
+  }
+  #hero .carousel-inner .carousel-item{
+    min-height: auto;
+  }
+  #hero h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #hero p{
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  #hero .btn-get-started{
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+  #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon{
+    font-size: 18px;
+    width: 26px;
+    height: 26px;
+  }
+  #hero .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+  }
+  .product-slider .swiper{
+    padding: 20px;
   }
 }
